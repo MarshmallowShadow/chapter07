@@ -5,7 +5,7 @@ import java.net.*;
 public class Server {
 	public static void main(String[] args) throws IOException {
 		ServerSocket ss = new ServerSocket();
-		ss.bind(new InetSocketAddress("172.30.1.16", 9999));
+		ss.bind(new InetSocketAddress("192.168.0.27", 9999));
 		
 		while(true) {
 			Socket s = ss.accept();

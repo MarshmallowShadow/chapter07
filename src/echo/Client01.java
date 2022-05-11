@@ -12,7 +12,7 @@ public class Client01 {
 		String name = sc.nextLine();
 		
 		System.out.println("연결중...");
-		s.connect(new InetSocketAddress("172.30.1.16", 9999));
+		s.connect(new InetSocketAddress("192.168.0.27", 9999));
 		
 		System.out.println("==================[연결 되었습니다]==================");
 		
